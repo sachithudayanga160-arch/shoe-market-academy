@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Shoe Academy">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="styles.css">
+<title>Shoe Market Academy Live</title>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-left"><img class="logo" src="icon.svg" alt=""><div><h1>Shoe Market Academy</h1><div class="tiny">Daily Learning + Business Intelligence</div></div></div>
+      <button class="refresh" onclick="loadDaily(true)">↻</button>
+    </div>
+  </header>
+
+  <div id="status"></div>
+
+  <section class="hero section" id="today">
+    <div class="eyebrow">DAILY SHOE BUSINESS BRIEF · <span id="dateLabel"></span></div>
+    <h2 id="heroTitle">Loading today’s lesson…</h2>
+    <p id="heroSummary">Your daily footwear lesson, market news, opportunities and practical business thinking.</p>
+    <div class="hero-meta"><span class="pulse" id="liveState"><span class="dot"></span>Loading</span><span>🇱🇰 Sri Lanka focus</span></div>
+  </section>
+
+  <div class="quick-grid">
+    <button class="quick" onclick="go('lessonSection')">📘<b>Masterclass</b><span>Learn footwear</span></button>
+    <button class="quick" onclick="go('market')">📰<b>Market Pulse</b><span>Latest industry</span></button>
+    <button class="quick" onclick="go('opportunity')">🎯<b>Opportunities</b><span>Business radar</span></button>
+    <button class="quick" onclick="go('thinking')">💡<b>New Thinking</b><span>Fresh ideas</span></button>
+  </div>
+
+  <section class="section" id="lessonSection"><div class="section-title"><h3>📘 Daily Masterclass</h3><span>Beginner → Professional</span></div><div id="lesson"></div></section>
+
+  <section class="section" id="market">
+    <div class="section-title"><h3>📰 Shoe Market Pulse</h3><span>Research + sources</span></div>
+    <div id="news"></div>
+  </section>
+
+  <section class="section" id="opportunity">
+    <div class="section-title"><h3>🎯 Sri Lanka Opportunity Radar</h3><span>Fact vs hypothesis marked</span></div>
+    <div id="opportunities" class="opportunity-grid"></div>
+  </section>
+
+  <section class="section" id="startupSection">
+    <div class="section-title"><h3>🚀 Start-a-Business Advice</h3><span>One action daily</span></div>
+    <div id="startup"></div>
+  </section>
+
+  <section class="section" id="thinking">
+    <div class="section-title"><h3>💡 New Thinking</h3><span>Test, don't guess</span></div>
+    <div id="newThinking"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h3>🧠 5-Word Vocabulary</h3><span>Daily terminology</span></div>
+    <div class="term-grid" id="vocab"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h3>✅ Mini Quiz</h3><span>Check learning</span></div>
+    <div class="card" id="quiz"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h3>🎯 Today's Action</h3><span>10–30 min</span></div>
+    <div id="todayAction"></div>
+  </section>
+
+  <section class="section notes">
+    <div class="section-title"><h3>📝 My Notes</h3><span>Saved on this phone</span></div>
+    <div class="card"><textarea id="notes" placeholder="Today මම ඉගෙනගත්ත දේ / business ideas / questions..."></textarea></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h3>🔗 Sources & Reference</h3><span>Open original sources</span></div>
+    <div class="card source-list" id="sourceList"></div>
+    <div class="card"><a id="refLink" class="source" target="_blank" rel="noopener">Open original Shoe Market Learning ChatGPT link ↗</a></div>
+  </section>
+
+  <div class="footer-note">Daily feed designed for mobile learning. Fresh market claims should always be checked against linked sources.</div>
+</div>
+
+<nav class="bottom"><div class="bottom-inner">
+  <button class="active" onclick="go('today',this)">🏠<br>Today</button>
+  <button onclick="go('lessonSection',this)">📘<br>Learn</button>
+  <button onclick="go('market',this)">📰<br>Market</button>
+  <button onclick="go('opportunity',this)">🎯<br>Business</button>
+  <button onclick="go('thinking',this)">💡<br>Ideas</button>
+</div></nav>
+<script src="app.js"></script>
+</body></html>
