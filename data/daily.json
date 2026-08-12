@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-12",
+  "lessonDay": 1,
+  "lesson": {
+    "category": "FOUNDATION",
+    "title": "Start With Customer Need, Not Just Shoe Style",
+    "summary": "Learn how footwear categories connect to customer need, then use that thinking to spot business opportunities.",
+    "explanation": "Shoe business එකේ first mindset එක: මේ shoe එක ලස්සනද කියන එකට වඩා මේක කාටද, මොන use එකකටද, customer එකේ මොන problem එක solve කරනවද කියලා බලන්න. Formal, casual, sports, sandals, school, work/safety සහ comfort footwear වගේ categories demand reason එක අනුව තේරුම් ගන්න.",
+    "keyPoints": [
+      "Category = product style + intended use + target customer.",
+      "Good assortment planning starts with customer segments, not random designs.",
+      "Every style should have a reason to exist in your stock."
+    ],
+    "terms": [
+      {"term":"Category","meaning":"Product group by use/style"},
+      {"term":"Target customer","meaning":"The buyer you design/buy for"},
+      {"term":"Assortment","meaning":"Your planned product mix"},
+      {"term":"Use case","meaning":"The job the shoe must do"}
+    ],
+    "buyerTip": "Shop එකක shoes බලනකොට price එක විතරක් note කරන්න එපා. Category, material, sole, sizes, customer type, promotion සහ display position එකත් note කරන්න.",
+    "businessAngle": "A future shoe shop can win by being very clear about one customer problem rather than trying to sell everything from day one.",
+    "visualFocus": "Take photos or notes of 10 different shoe categories in one local store and classify each by customer + use."
+  },
+  "marketPulse": [
+    {
+      "title": "Sri Lanka footwear industry research starting point",
+      "date": "Recent",
+      "summary": "The Sri Lanka Export Development Board maintains a footwear industry resource area covering the local sector and exporters.",
+      "whyItMatters": "Local manufacturer and exporter networks can be a sourcing and private-label research starting point, not only imported finished shoes.",
+      "sourceName": "Sri Lanka Export Development Board",
+      "url": "https://www.srilankabusiness.com/footware/"
+    },
+    {
+      "title": "Automation is reshaping footwear production",
+      "date": "2026-02-25",
+      "summary": "Reuters reported on sportswear brand On launching a robot-powered factory in South Korea using automated production technology.",
+      "whyItMatters": "Faster and more automated manufacturing could influence lead times, customization and sourcing options over time.",
+      "sourceName": "Reuters",
+      "url": "https://www.reuters.com/business/retail-consumer/sportswear-brand-launches-south-korea-robot-factory-tackle-supply-chain-risk-2026-02-25/"
+    },
+    {
+      "title": "Trade fairs remain useful for supplier discovery",
+      "date": "Recent",
+      "summary": "Footwear industry trade events continue to connect buyers with materials, machinery, technology and manufacturing suppliers.",
+      "whyItMatters": "Learning how to use fairs and supplier events as research tools is important before committing to factories or large orders.",
+      "sourceName": "World Footwear",
+      "url": "https://www.worldfootwear.com/news/world-footwear-news.html"
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "Comfort-first affordable footwear",
+      "evidenceLevel": "Hypothesis",
+      "why": "A focused comfort/value offer may be worth testing among customers who stand or walk for long hours.",
+      "targetCustomer": "Office workers and adults who stand/walk for long hours",
+      "businessModel": "Curated retail + online catalogue + fit guidance",
+      "risk": "Customers may say comfort matters but still buy mainly by price or style",
+      "validation": "Interview 20 buyers and test 5–10 styles before large stock",
+      "url": "https://www.srilankabusiness.com/footware/"
+    },
+    {
+      "title": "Small-batch local private-label line",
+      "evidenceLevel": "Hypothesis",
+      "why": "Sri Lanka has an established footwear manufacturing base, so local small-batch sourcing is worth investigating before assuming importing is the only route.",
+      "targetCustomer": "Value-conscious local buyers",
+      "businessModel": "Source locally, control spec and branding, sell direct and through selected retailers",
+      "risk": "MOQ, quality consistency and design differentiation",
+      "validation": "Contact 5 manufacturers and compare sample, MOQ and lead-time terms",
+      "url": "https://www.srilankabusiness.com/footware/"
+    }
+  ],
+  "startupAdvice": {
+    "title": "Build a 30-shoe market observation sheet",
+    "action": "Visit 2–3 shoe retailers or browse their online catalogues. Record 30 products: category, target buyer, price, material, sole type, sizes, promotion and what problem each product appears to solve.",
+    "measure": "Repeated price bands, categories and features you identify",
+    "successSignal": "You can describe 3 possible gaps or crowded product areas using evidence, not guesses"
+  },
+  "newThinking": {
+    "title": "Fit + Comfort Score instead of only size",
+    "idea": "Create a simple 5-point in-store score for width, cushioning, heel hold, flexibility and weight, then show it on product cards.",
+    "why": "Customers often struggle to compare comfort features between visually similar shoes.",
+    "test": "Score 10 existing shoes and ask 10 people whether the score helps them shortlist faster."
+  },
+  "vocabulary": [
+    {"term":"Assortment","meaning":"Planned mix of products"},
+    {"term":"SKU","meaning":"A specific stock-keeping unit"},
+    {"term":"MOQ","meaning":"Minimum order quantity"},
+    {"term":"Sell-through","meaning":"Percentage of received stock sold"},
+    {"term":"Landed cost","meaning":"True cost after logistics/import-related costs"}
+  ],
+  "quiz": [
+    {"question":"What should come before randomly choosing styles for stock?","options":["Customer/use-case understanding","A bigger shoe box","More colours only"],"correctIndex":0},
+    {"question":"What does MOQ mean?","options":["Monthly order quality","Minimum order quantity","Market outlet quota"],"correctIndex":1},
+    {"question":"A new business opportunity should first be treated as…","options":["Guaranteed profit","A hypothesis to validate","A reason to buy maximum stock"],"correctIndex":1}
+  ],
+  "todayAction": {
+    "title": "10-Shoe Observation Challenge",
+    "task": "Choose one local or online footwear retailer. Study 10 shoes and record category + target buyer + price + main value proposition.",
+    "minutes": 20,
+    "output": "A simple 10-row observation note"
+  },
+  "sources": [
+    {"name":"Sri Lanka Export Development Board — Footwear Industry","url":"https://www.srilankabusiness.com/footware/"},
+    {"name":"Reuters — On robot footwear factory","url":"https://www.reuters.com/business/retail-consumer/sportswear-brand-launches-south-korea-robot-factory-tackle-supply-chain-risk-2026-02-25/"},
+    {"name":"World Footwear — Industry news","url":"https://www.worldfootwear.com/news/world-footwear-news.html"}
+  ]
+}
